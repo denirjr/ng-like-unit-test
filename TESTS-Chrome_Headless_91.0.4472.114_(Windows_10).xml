@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 91.0.4472.114 (Windows 10)" package="" timestamp="2021-06-29T22:35:21" id="0" hostname="NB78539" tests="8" errors="0" failures="0" time="0.063">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/91.0.4472.114 Safari/537.36"/>
+  </properties>
+  <testcase name="UniqueIdService Should not generate duplicated Ids when call multiple times" time="0.024" classname="Chrome_Headless_91_0_4472_114_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #generatedUniqueIdWithPrefix should generate id when called with prefix" time="0" classname="Chrome_Headless_91_0_4472_114_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService Should throw when called with empty" time="0.001" classname="Chrome_Headless_91_0_4472_114_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService Should return the number if generatedIds when called" time="0.001" classname="Chrome_Headless_91_0_4472_114_(Windows_10).UniqueIdService"/>
+  <testcase name="LikeWidgetComponent Should NOT auto-generate ID during ngOnInit when (@Input id) is assigned" time="0.023" classname="Chrome_Headless_91_0_4472_114_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent like should trigger (@Output liked) when called" time="0.005" classname="Chrome_Headless_91_0_4472_114_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent Should auto generate id during ngOnInit when (@Input) is not assigned" time="0.006" classname="Chrome_Headless_91_0_4472_114_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent Should create component" time="0.003" classname="Chrome_Headless_91_0_4472_114_(Windows_10).LikeWidgetComponent"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
