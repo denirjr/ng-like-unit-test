@@ -1,0 +1,14 @@
+<ng-container *ngIf="photos$ | async as photos; else loader">
+  <app-photo-board [photos]="photos"> </app-photo-board>
+</ng-container>
+
+<ng-template #loader>
+  <div class="loader">
+    <fa-icon
+      [icon]="fa.faCircleNotch"
+      [spin]="true"
+      size="4x"
+      arial-busy="true"
+    ></fa-icon>
+  </div>
+</ng-template>
